@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import axios from "axios";
 import { Link } from "react-router-dom";
 
-const baseUrl = process.env.BASE_URL;
+const baseUrl = "https://inventory-system-production-ec9c.up.railway.app";
 
 const AddProduct = () => {
   const [product, setProduct] = useState({

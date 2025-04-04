@@ -1,6 +1,8 @@
 import React, { useEffect, useState } from "react";
 import axios from "axios";
-const baseUrl = process.env.BASE_URL;
+
+const baseUrl = "https://inventory-system-production-ec9c.up.railway.app";
+
 const ProductList = () => {
   const [products, setProducts] = useState([]);
   const [loading, setLoading] = useState(true);

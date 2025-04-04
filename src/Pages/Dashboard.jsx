@@ -15,7 +15,8 @@ import {
 import Navigation from "../Components/Navigation";
 import ProductList from "../Components/ProductList";
 import { useAuth } from "../context/AuthContext";
-const baseUrl = process.env.BASE_URL;
+
+const baseUrl = "https://inventory-system-production-ec9c.up.railway.app";
 
 const Dashboard = () => {
   const { user } = useAuth();
